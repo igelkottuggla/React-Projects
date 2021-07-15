@@ -1,0 +1,106 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+section,
+div,
+article,
+img,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: #f7f8f8;
+  color: #222;
+  padding: 0;
+  margin: 0;
+}
+
+.booklist {
+  width: 90vw;
+  max-width: 1170px;
+  margin: 5rem auto;
+  display: grid;
+  gap: 3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .booklist {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  text-align: center;
+  box-shadow: 0 5px 0 5px rgb(0 0 0 / 1%);
+}
+
+.book h1 {
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
+
+.book h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.55rem;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.book img {
+  height: 13rem;
+  align-self: center;
+}
+
+.book button {
+  background-color: #fff;
+  padding: 0.75rem 0.5rem;
+  margin-top: 1rem;
+  width: 14rem;
+  margin: 1rem auto 0;
+  text-transform: capitalize;
+}
+
+.book button:hover {
+  background-color: rgba(169, 169, 169, 0.596);
+}

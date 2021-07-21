@@ -150,6 +150,7 @@ Menu
   margin-bottom: 2rem;
 }
 .underline {
+  display: block;
   width: 5rem;
   height: 0.25rem;
   background: var(--clr-gold);

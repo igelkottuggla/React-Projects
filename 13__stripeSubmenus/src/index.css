@@ -251,6 +251,7 @@ Stripe Styles
     text-transform: capitalize;
     letter-spacing: 1px;
     width: 10rem;
+    cursor: pointer;
   }
 }
 
@@ -276,6 +277,7 @@ Stripe Styles
   }
   .phone-img {
     width: 12rem;
+    margin-top: 5rem;
   }
 }
 
@@ -293,7 +295,12 @@ Stripe Styles
     align-self: end;
   }
   .phone-img {
+    margin-top: 7rem;
     width: 15rem;
+  }
+
+  .submenu-center a {
+    width: 10rem;
   }
 }
 @media screen and (min-width: 1400px) {
@@ -420,7 +427,6 @@ Stripe Styles
   margin-bottom: 1.5rem;
 }
 .submenu-center a {
-  width: 10rem;
   display: block;
   color: var(--clr-grey-1);
   text-transform: capitalize;

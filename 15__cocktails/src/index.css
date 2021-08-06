@@ -211,7 +211,7 @@ Cocktails List
   letter-spacing: var(--mainSpacing);
   text-align: center;
   margin-bottom: 3.5rem;
-  margin-top: 1rem;
+  margin-top: 4rem;
 }
 .cocktails-center {
   width: var(--smallWidth);

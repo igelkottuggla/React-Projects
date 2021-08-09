@@ -213,6 +213,12 @@ Stock Photos
   justify-content: space-between;
   align-items: center;
 }
+
+.likes-info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
 .photo:hover .photo-info {
   transform: translateY(0);
 }
@@ -228,4 +234,8 @@ Stock Photos
 .loading {
   text-align: center;
   padding: 3rem;
+}
+
+.like {
+  color: #f54260;
 }
